@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.ipynb_checkpoints/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Data & artifacts
+*.sqlite
+*.db
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.log
+
+# Exclude the specific folder you mentioned
+phases_summary/

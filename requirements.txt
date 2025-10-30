@@ -1,17 +1,32 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.env
-.venv/
-venv/
-# Jupyter checkpoints
-.ipynb_checkpoints
-# Data / logs
-*.sqlite
-*.csv
-*.png
-*.log
-# VSCode / IDE
-.vscode/
-.idea/
+# Core
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+sqlalchemy>=2.0.30
+requests>=2.32.0
+
+# Data handling & plotting
+pandas>=2.2.2
+matplotlib>=3.9.0
+tqdm>=4.66.4
+
+# Optional: for future stages (already useful to keep)
+fastapi>=0.111.0
+uvicorn>=0.30.0
+redis>=5.0.4
+plotly>=5.22.0
+streamlit>=1.37.0
+
+# Reinforcement Learning (Stage 3 onward)
+ray[rllib]>=2.32.0
+stable-baselines3>=2.3.2
+
+# Agent frameworks (Stage 2 onward)
+langchain>=0.2.11
+langgraph>=0.1.7
+autogen>=0.4.0
+
+# LLM providers (optional; you can uncomment later when you add real APIs)
+# openai>=1.40.0
+# anthropic>=0.34.0
+# mistralai>=1.2.0
+# google-generativeai>=0.7.0
