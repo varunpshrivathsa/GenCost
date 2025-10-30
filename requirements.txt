@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+# Jupyter checkpoints
+.ipynb_checkpoints
+# Data / logs
+*.sqlite
+*.csv
+*.png
+*.log
+# VSCode / IDE
+.vscode/
+.idea/
